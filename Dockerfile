@@ -5,11 +5,8 @@ WORKDIR /home
 
 #Envoiroments
 ENV URL_PEDIDO=""  \
-    PORTA_PEDIDO="" \
     URL_PRODUTO=""  \
-    PORTA_PRODUTO="" \
-    URL_PAGAMENTO=""  \
-    PORTA_PAGAMENTO=""
+    URL_PAGAMENTO=""
 
 # updates source list
 RUN apk update
